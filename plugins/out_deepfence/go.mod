@@ -1,17 +1,17 @@
-module github.com/toae/ThreatMapper/toae_agent/tools/apache/fluentbit/out_toae
+module github.com/Sam12121/toaetest/toae_agent/tools/apache/fluentbit/out_toae
 
 go 1.20
 
-replace github.com/toae/golang_toae_sdk/client => ../../../../../golang_toae_sdk/client
+replace github.com/Sam12121/golang_toae_sdk/client => ../../../../../golang_toae_sdk/client
 
-replace github.com/toae/golang_toae_sdk/utils => ../../../../../golang_toae_sdk/utils
+replace github.com/Sam12121/golang_toae_sdk/utils => ../../../../../golang_toae_sdk/utils
 
-replace github.com/toae/ThreatMapper/toae_utils => ../../../../../toae_utils
+replace github.com/Sam12121/toaetest/toae_utils => ../../../../../toae_utils
 
 require (
-	github.com/toae/ThreatMapper/toae_utils v0.0.0-00010101000000-000000000000
-	github.com/toae/golang_toae_sdk/client v0.0.0-00010101000000-000000000000
-	github.com/toae/golang_toae_sdk/utils v0.0.0-00010101000000-000000000000
+	github.com/Sam12121/toaetest/toae_utils v0.0.0-00010101000000-000000000000
+	github.com/Sam12121/golang_toae_sdk/client v0.0.0-00010101000000-000000000000
+	github.com/Sam12121/golang_toae_sdk/utils v0.0.0-00010101000000-000000000000
 	github.com/fluent/fluent-bit-go v0.0.0-20230515084116-b93d969da46d
 	github.com/hashicorp/go-retryablehttp v0.7.4
 )

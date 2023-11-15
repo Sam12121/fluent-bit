@@ -19,9 +19,9 @@ import (
 
 	"github.com/fluent/fluent-bit-go/output"
 
-	toaeUtils "github.com/toae/ThreatMapper/toae_utils/utils"
-	dsc "github.com/toae/golang_toae_sdk/client"
-	dschttp "github.com/toae/golang_toae_sdk/utils/http"
+	toaeUtils "github.com/Sam12121/toaetest/toae_utils/utils"
+	dsc "github.com/Sam12121/golang_toae_sdk/client"
+	dschttp "github.com/Sam12121/golang_toae_sdk/utils/http"
 	rhttp "github.com/hashicorp/go-retryablehttp"
 )
 
